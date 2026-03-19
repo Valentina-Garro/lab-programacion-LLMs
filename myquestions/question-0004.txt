@@ -1,0 +1,11 @@
+CASO #4
+
+-> Enunciado:
+En muchos problemas de Machine Learning, los datos tienen demasiadas variables, lo que puede dificultar el entrenamiento de modelos y aumentar el costo computacional.
+Para solucionar esto, se puede aplicar reducción de dimensionalidad usando PCA, lo que permite conservar la mayor cantidad de información posible en menos dimensiones.
+
+-> Misión:
+Escribe una función llamada reducir_dimensionalidad_pca(X) que:
+- Reciba una matriz de datos X.
+- Aplique PCA de sklearn para reducir los datos a 2 componentes principales.
+- Devuelva la matriz transformada.

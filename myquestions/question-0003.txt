@@ -1,0 +1,17 @@
+CASO #3
+
+-> Enunciado:
+Un sistema de recomendación necesita clasificar nuevos usuarios en categorías basadas en sus características. Para ello, se decide usar un modelo K-Nearest Neighbors (KNN), el cual clasifica nuevos datos según la cercanía a ejemplos previamente conocidos.
+Se cuenta con un conjunto de entrenamiento, pero falta implementar la lógica para entrenar el modelo y hacer predicciones.
+
+-> Misión:
+Escribe una función llamada clasificar_knn(X, y, nuevo_punto) que:
+
+Reciba:
+   - X: matriz de características
+   - y: vector de etiquetas
+   - nuevo_punto: dato a clasificar
+- Instancie un modelo KNeighborsClassifier de sklearn.
+- Entrene el modelo con los datos proporcionados.
+- Prediga la clase del nuevo_punto.
+- Devuelva la predicción.

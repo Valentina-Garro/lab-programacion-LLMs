@@ -1,0 +1,14 @@
+CASO #1
+
+-> Enunciado:
+Una empresa de comercio electrónico registra sus ventas diarias, pero el equipo de análisis necesita entender cómo están creciendo (o disminuyendo) las ventas en el tiempo.
+
+Actualmente, solo se tiene un DataFrame con fechas y valores de ventas, pero no se ha calculado el cambio relativo entre días consecutivos, lo cual es clave para detectar tendencias.
+
+-> Misión:
+Escribe una función llamada calcular_crecimiento_porcentual(df) que:
+- Reciba un DataFrame con las columnas fecha y ventas.
+- Ordene los datos por fecha (si no lo están).
+- Calcule el crecimiento porcentual entre cada fila consecutiva de la columna ventas.
+- Agregue una nueva columna llamada crecimiento_%.
+- Devuelva el DataFrame resultante.
