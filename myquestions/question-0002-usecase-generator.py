@@ -11,4 +11,4 @@ def generar_caso_de_uso_detectar_outliers():
         "valores": datos
     })
 
-    return df
+    return df, None
