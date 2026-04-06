@@ -6,4 +6,4 @@ def generar_caso_de_uso_reducir_dimensionalidad_pca():
 
     X = np.random.rand(n_muestras, n_features)
 
-    return X, None
+    return {"X": X}, None

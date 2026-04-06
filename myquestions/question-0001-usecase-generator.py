@@ -11,4 +11,4 @@ def generar_caso_de_uso_calcular_crecimiento_porcentual():
         "ventas": ventas
     })
 
-    return df, None
+    return {"df": df}, None

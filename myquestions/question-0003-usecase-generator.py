@@ -13,4 +13,8 @@ def generar_caso_de_uso_clasificar_knn():
 
     nuevo_punto = np.random.rand(1, 2)
 
-    return (X, y), nuevo_punto
+    return {
+        "X": X,
+        "y": y,
+        "nuevo_punto": nuevo_punto
+    }, None

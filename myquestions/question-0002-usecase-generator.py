@@ -3,7 +3,6 @@ import numpy as np
 
 def generar_caso_de_uso_detectar_outliers():
     datos = np.random.normal(loc=100, scale=20, size=50)
-
     outliers = np.random.randint(200, 300, size=5)
     datos = np.concatenate([datos, outliers])
 
@@ -11,4 +10,4 @@ def generar_caso_de_uso_detectar_outliers():
         "valores": datos
     })
 
-    return df, None
+    return {"df": df}, None
