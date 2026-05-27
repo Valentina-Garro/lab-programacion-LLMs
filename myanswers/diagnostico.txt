@@ -1,0 +1,12 @@
+
+** Para answer-0196 **
+
+La función generadora de casos de uso asociada a esta pregunta no sigue completamente el formato especificado 
+en las instrucciones del proyecto. Según las especificaciones, el generador debe retornar: (input_data, output_data)
+donde output_data corresponde a la salida esperada de la función solución. Sin embargo, el generador de esta 
+pregunta únicamente retorna: {"X": X, "y": y}, {"modelo": modelo, "cv": cv, "n_puntos": n_puntos} y no 
+proporciona un resultado esperado contra el cual comparar automáticamente la respuesta implementada.
+
+Debido a esto, no es posible validar automáticamente si la salida producida por answer-0196.py coincide 
+con una solución esperada. Aun así, la función implementada se ejecuta correctamente sin errores utilizando
+múltiples casos aleatorios generados localmente.
