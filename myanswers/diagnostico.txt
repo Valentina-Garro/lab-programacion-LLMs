@@ -10,3 +10,19 @@ proporciona un resultado esperado contra el cual comparar automáticamente la re
 Debido a esto, no es posible validar automáticamente si la salida producida por answer-0196.py coincide 
 con una solución esperada. Aun así, la función implementada se ejecuta correctamente sin errores utilizando
 múltiples casos aleatorios generados localmente.
+
+------------------------------------------------------------------------------------------------------------------
+
+** Para answer-0529 **
+
+La función generadora de casos de uso asociada a esta pregunta presenta un error de ejecución ajeno a la 
+implementación de la solución.
+Durante la validación automática se produce el error: filtrar_genes_criticos() missing 3 required positional 
+arguments: 'df', 'umbral_varianza', and 'max_nans'
+
+Esto indica que el generador intenta ejecutar la función solución sin proporcionar los argumentos requeridos 
+definidos en el enunciado original de la pregunta.
+
+La implementación realizada en answer-0529.py sigue correctamente la firma especificada: 
+filtrar_genes_criticos(df, umbral_varianza, max_nans). Por lo tanto, el error corresponde al generador de 
+casos de uso y no a la solución implementada.
